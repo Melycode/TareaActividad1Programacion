@@ -49,7 +49,7 @@ public class Main {
 
       // Creamos una función tiempoRestanteAlquiler que devuelva el tiempo restante (en días) de un alquiler, dado el tiempo total del alquiler (en semanas) y el tiempo transcurrido (en días).
 
-    static double tiempoRestanteAlquiler(int semanastotales, int diastranscurridos) { // definimos la funciòn, ingresamos los elementos semanas totales, y dias transcurridos
+    static int tiempoRestanteAlquiler(int semanastotales, int diastranscurridos) { // definimos la funciòn, ingresamos los elementos semanas totales, y dias transcurridos
         int totaldias = semanastotales * 7; // definimos la variable totaldias que albergarà el resultado de multiplicar semanas totales por 7 días.
         int tiempoRestante = ( totaldias - diastranscurridos); // creamos otra variable (tiempoRestante) que alberga el resultado de restar total días y días transcurridos. 
         return tiempoRestante; // devolemos el valor de tiempoRestante
